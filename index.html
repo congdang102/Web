@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
     <title>Document</title>
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -72,6 +73,9 @@
                 <p>A Beautiful Blogger Template</p>
             </div>
         </div>
+        bat dau slider
+        <div class="slideshow-container">
+        <div class="mySlides fade">
         <div id="sliders">
             <div class="control prev"></div>
             <div class="slider">
@@ -98,6 +102,49 @@
             </div>
             <div class="control next"></div>
         </div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="./assets/img/little-women-1994-e1584351603431.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./assets/img/little-women-book-e1584351310669.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+      
+      </div>
+      <br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+  }
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+        ket thuc
+        
         <div id="content">
             <div class="container">
                 <div class="main-content">
@@ -115,7 +162,7 @@
                     <div class="widget about-me">
                         <h4 class="widget-title"><span>about me</span></h4>
                         <div class="widget-content">
-                            <img src="https://1.bp.blogspot.com/-hKzByA06584/XxayRkZwaYI/AAAAAAAAK6I/m5yBt4tITLMQ7nOCSbNyaQrb_6BGzpe1ACLcBGAsYHQ/s320/shutterstock_435511333.jpg" alt="">
+                            <img src="./assets/img/736451.jpg" alt="">
                             <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
                         </div>
                     </div>
@@ -148,15 +195,15 @@
                     <div class="widget labels">
                         <h4 class="widget-title"><span>labels</span></h4>
                         <div class="widget-content">
-                            <span class="label"><a href="">Break</a></span>
-                            <span class="label"><a href="">Beauty Tips</a></span>
-                            <span class="label"><a href="">Fashion</a></span>
-                            <span class="label"><a href="">Food</a></span>
-                            <span class="label"><a href="">life & style</a></span>
-                            <span class="label"><a href="">Nature</a></span>
-                            <span class="label"><a href="">Slider</a></span>
-                            <span class="label"><a href="">Sport</a></span>
-                            <span class="label"><a href="">Technology</a></span>
+                            <span class="label"><a href="">Action</a></span>
+                            <span class="label"><a href="">Adventure</a></span>
+                            <span class="label"><a href="">Comedy</a></span>
+                            <span class="label"><a href="">Crime & Gangter</a></span>
+                            <span class="label"><a href="">Drama</a></span>
+                            <span class="label"><a href="">Historical</a></span>
+                            <span class="label"><a href="">Horror</a></span>
+                            <span class="label"><a href="">Musical & Dance</a></span>
+                            
                         </div>
                     </div>
                     <div class="widget recent-posts">
@@ -164,7 +211,7 @@
                         <div class="widget-content side-list">
                             <div class="side-item">
                                 <div class="side-img">
-                                    <img src="https://2.bp.blogspot.com/-PHLnXXnLtOc/Wkqc6yk42nI/AAAAAAAAKMw/EntnPYbNp68Qh1EtQRjzRli2fj5vNGGggCLcBGAs/s500-c/052604-.jpg" alt="">
+                                    <img src="./assets/img/little-women-book-e1584351310669.jpg" alt="">
                                 </div>
                                 <div class="side-item-text">
                                     <h4><a href="">Papilion Minter Savior</a></h4>
@@ -182,7 +229,7 @@
                             </div>
                             <div class="side-item">
                                 <div class="side-img">
-                                    <img src="https://2.bp.blogspot.com/-PHLnXXnLtOc/Wkqc6yk42nI/AAAAAAAAKMw/EntnPYbNp68Qh1EtQRjzRli2fj5vNGGggCLcBGAs/s500-c/052604-.jpg" alt="">
+                                    <img src="./assets/img/little-women-1994-e1584351603431.jpg" alt="">
                                 </div>
                                 <div class="side-item-text">
                                     <h4><a href="">Papilion Minter Savior</a></h4>
@@ -219,6 +266,11 @@
             </div>
         </div>
     </div>
+  
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
     
+      <script src="Test1.js"></script>
 </body>
 </html>
